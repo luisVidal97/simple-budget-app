@@ -1,10 +1,10 @@
-import { ExpenseItem } from "./components/ExpenseItem";
+import { Expenses } from "./components/Expenses/Expenses";
 
 function App() {
   return (
     <div className="App">
       <h1>Hello world!</h1>
-      <ExpenseItem></ExpenseItem>
+      <Expenses expenses={[]}/>
     </div>
   );
 }
